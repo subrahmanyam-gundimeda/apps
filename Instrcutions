@@ -1,0 +1,14 @@
+lsattr
+chattr +i filename
+chattr -i filename ( for reverting undeletetion )
+
+compiling packages in arch linux
+  makepkg -Acs package
+  packman -U package.tar.gz
+  
+Gpg instcutions
+  gpg -o output.gpg -c filename
+  gpg -o filename output.gpg
+     ( -s signature )
+   Better encrypt an compressed file.
+   
