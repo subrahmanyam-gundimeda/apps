@@ -12,3 +12,6 @@ Gpg instcutions
      ( -s signature )
    Better encrypt an compressed file.
    
+Best compressed command ( levels are present)   
+tar -cJf ./my-archive.tar.xz ./my-folder/
+tar xvf file.tar.xz
